@@ -1,0 +1,3 @@
+<!--pages/login/index.wxml-->
+<button open-type="getUserInfo" bindtap="getUserInfo">获取用户基本信息</button>
+
