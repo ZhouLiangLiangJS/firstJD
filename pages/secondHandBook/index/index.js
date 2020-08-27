@@ -1,5 +1,6 @@
 // pages/SHB/index/index.js
 var template = require("../tabbar_template/index.js");
+const app=getApp()
 Page({
   /**
    * 页面的初始数据
@@ -132,12 +133,26 @@ Page({
       isShow_by_isn: !this.data.isShow_by_isn,
     });
   },
+  
+  
   /**
    * 生命周期函数--监听页面加载
    */
   //tabBar部分
   onLoad: function (options) {
     template.tabbar("tabBar", 0, this);
+	wx.request({
+	  url: app.globalData.baseUrl+"searchBook", //仅为示例，并非真实的接口地址
+	  data: {
+					book_name:"天涯明月刀"
+	  },
+	  header: {
+	    'content-type': 'application/json;charset=UTF-8'
+	  },
+	  success (res) {
+	    console.log(res.data)
+	  }
+	})
   },
   quit: function () {
     this.setData({

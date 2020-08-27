@@ -19,7 +19,7 @@ Page({
     carouselIndex: 0,
     // 工具栏数据
     toolsArr: [
-      { image: "", name: "二手书城", url: "../secondHandBook/index/index" },
+      { image: "", name: "二手书城", url: "pages/secondHandBook/index/index" },
       { image: "", name: "失物招领", url: "" },
       { image: "", name: "报名助手", url: "" },
       { image: "", name: "待定", url: "" },

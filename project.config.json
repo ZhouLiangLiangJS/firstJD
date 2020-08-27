@@ -20,17 +20,17 @@
 		"checkInvalidKey": true,
 		"checkSiteMap": true,
 		"uploadWithSourceMap": true,
-		"compileHotReLoad": false,
-		"useMultiFrameRuntime": true,
-		"useApiHook": false,
 		"babelSetting": {
 			"ignore": [],
 			"disablePlugins": [],
 			"outputPath": ""
 		},
-		"useIsolateContext": true,
-		"useCompilerModule": true,
+		"useCompilerModule": false,
 		"userConfirmedUseCompilerModuleSwitch": false,
+		"compileHotReLoad": false,
+		"useMultiFrameRuntime": true,
+		"useApiHook": false,
+		"useIsolateContext": true,
 		"packNpmManually": false,
 		"packNpmRelationList": []
 	},
