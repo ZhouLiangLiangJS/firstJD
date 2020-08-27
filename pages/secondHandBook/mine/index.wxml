@@ -35,6 +35,7 @@
       <image class="img1" src="/image/mine-bg.png" />
       <image class="img2" src="/image/secondHandBook_image/shb_publish.png" />
   </navigator>
+  <text class="myfb myfbtext">我的发布</text>
   <navigator bindtap='bookDetail' class="quanbu">
   全部（12）
   <image class="arrow2" src="/image/secondHandBook_image/shb_arrows2.png"></image></navigator>

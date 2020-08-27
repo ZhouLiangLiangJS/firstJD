@@ -96,11 +96,18 @@ page {
 }
 .myfb{
   position: absolute;
-  width: 100rpx;
-  height: 100rpx;
+  width: 150rpx;
+  height: 150rpx;
   border-radius: 100%;
-  left: 50rpx;
-  transform: translateY(-50%);
+  left: 30rpx;
+  transform: translateY(-60%);
+}
+.myfbtext{
+  width: auto;
+  height: auto;
+  transform: translateY(-110%);
+  left: 190rpx;
+  color: #1B3C4F;
 }
 .quanbu{
   position: absolute;
