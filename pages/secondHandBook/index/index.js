@@ -1,6 +1,7 @@
 // pages/SHB/index/index.js
 var template = require("../tabbar_template/index.js");
 const app=getApp()
+import {request} from '../../../request/request.js'
 Page({
   /**
    * 页面的初始数据
@@ -79,6 +80,24 @@ Page({
     //是否显示蒙层
     isShow_back: false,
   },
+
+
+  /**
+   * 搜索图书
+   */
+  async searchBook(e) {
+    const value = e.detail.value
+    const requestData = {
+      book_name: value
+    }
+    const result = await request({
+      url: "book-market/searchBook",
+      method: "GET",
+      data: requestData
+    })
+    console.log(result)
+  },
+
 
   /**
    * 切换选中页面的函数

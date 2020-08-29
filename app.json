@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/secondHandBook/mine/index",
     "pages/login/index",
     "pages/mine/index",
     "pages/minePages/personalData/index",
@@ -19,7 +20,6 @@
     "pages/secondHandBook/currentBookSelling/index",
     "pages/secondHandBook/currentBookBorrowing/index",
     "pages/secondHandBook/classification/index",
-    "pages/secondHandBook/mine/index",
     "pages/forum/index",
     "pages/mine-send/index"
   ],

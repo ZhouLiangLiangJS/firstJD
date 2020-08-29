@@ -31,6 +31,7 @@ page {
   width: 90%;
   padding-left: 40rpx;
   padding-right: 40rpx;
+  text-align: center;
 }
 /* 轮播图部分 */
 /* 轮播图部分 */

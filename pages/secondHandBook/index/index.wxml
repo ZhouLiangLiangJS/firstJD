@@ -3,9 +3,9 @@
 <view class="search_body">
     <view class="search_background"></view>
     <view class="search_box">
-        <input class="search" type="text" placeholder="搜索" placeholder-style="text-align:center;color:#Cacaca;font-size:36rpx" />
+        <input class="search" type="text" placeholder="搜索" placeholder-style="text-align:center;color:#Cacaca;font-size:36rpx" bindconfirm="searchBook"/>
     </view>
-</view>
+</view> 
 <!-- 搜索框结束 -->
 <!-- 轮播图开始 -->
 <view class="carousel_box">
